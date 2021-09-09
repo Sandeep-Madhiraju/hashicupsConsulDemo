@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Local Keys
+**/.keyring/*
+
 # .tfstate files
 *.tfstate
 *.tfstate.*

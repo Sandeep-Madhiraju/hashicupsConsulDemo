@@ -38,6 +38,6 @@ output "aws_shared_svcs_public_subnets" {
 #   value = module.azure-app-network.vnet_subnets
 # }
 
-# output "gcp_shared_svcs_network_self_link" {
-#   value = module.gcp-vpc-shared-svcs.network_self_link
-# }
+output "gcp_shared_svcs_network_self_link" {
+  value = module.gcp-vpc-shared-svcs.network_self_link
+}
