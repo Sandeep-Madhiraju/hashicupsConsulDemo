@@ -1,7 +1,6 @@
 terraform {
     backend "remote" {
-        organization = "smadhiraju-org
-"
+        organization = "smadhiraju-org"
 
         workspaces {
             name = "hashicupsConsulDemo"
